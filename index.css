@@ -1,0 +1,412 @@
+html {
+  background-color: #0a192f;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 1rem;
+  margin-top: 1.5rem;
+}
+
+#logo {
+  height: 5rem;
+
+  background-color: #0a192f;
+  margin-left: 1rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  width: 40rem;
+}
+
+ol {
+  list-style-type: decimal-leading-zero;
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+  font-size: 1rem;
+  width: 28rem;
+  display: flex;
+  justify-content: space-between;
+  color: #64ffda;
+  font-weight: 100;
+}
+
+a {
+  color: #ccd6f6;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+a:hover {
+  color: #64ffda;
+}
+
+#resume {
+  background-color: hsl(216, 65%, 11%);
+  border: 0.08rem solid #64ffda;
+  border-radius: 0.2rem;
+  color: #64ffda;
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+  width: 6rem;
+  height: 2.7em;
+  font-size: 0.9rem;
+  position: relative;
+  top: 0.4rem;
+  padding: 0, 1rem;
+  font-weight: 900;
+}
+
+aside {
+  width: 5rem;
+  height: 85vh;
+  position: sticky;
+  top: 6rem;
+}
+
+.line {
+  height: 6.5rem;
+  width: 0.1rem;
+  background-color: #ccd6f6;
+  margin-left: 2.4rem;
+  margin-top: 1rem;
+  float: left;
+}
+
+article {
+  margin-left: 5rem;
+  color: #8892b0;
+  font-family: "Calibre", "Inter", "San Francisco", "SF Pro Text", -apple-system,
+    system-ui, sans-serif;
+  font-size: 18px;
+}
+
+.socialLogo {
+  height: 2rem;
+  width: 2rem;
+  margin-left: 1.5rem;
+  margin-top: 1rem;
+}
+
+.mid {
+  display: flex;
+  justify-content: space-between;
+}
+
+#start {
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+  color: #64ffda;
+  font-size: 1.1rem;
+  font-weight: 300;
+  margin-bottom: 0;
+  margin-top: 1rem;
+}
+
+article {
+  margin-left: 2rem;
+  margin-top: 3rem;
+}
+
+#name {
+  font-size: 5rem;
+  font-family: "Calibre", "Inter", "San Francisco", "SF Pro Text", -apple-system,
+    system-ui, sans-serif;
+  color: #ccd6f6;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+}
+
+#desc {
+  font-size: 4.9rem;
+  font-family: "Calibre", "Inter", "San Francisco", "SF Pro Text", -apple-system,
+    system-ui, sans-serif;
+  color: #8892b0;
+  margin: 0;
+}
+
+#second {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#thrdnb {
+  margin-left: 0rem;
+}
+
+#vert {
+  writing-mode: vertical-rl;
+  /* color: white; */
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+}
+
+#vert:hover {
+  position: relative;
+  bottom: 0.2rem;
+}
+
+#intro {
+  color: #8892b0;
+  font-family: "Calibre", "Inter", "San Francisco", "SF Pro Text", -apple-system,
+    system-ui, sans-serif;
+  font-size: 1.5rem;
+  max-width: 38rem;
+}
+
+span {
+  color: #64ffda;
+}
+
+#box {
+  height: 90rem;
+  background-color: aquamarine;
+}
+
+.about_me {
+  margin-left: 6rem;
+  font-family: "Calibre", "Inter", "San Francisco", "SF Pro Text", -apple-system,
+    system-ui, sans-serif;
+}
+
+.a {
+  color: #ccd6f6;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-right: 2rem;
+}
+
+.horLine {
+  width: 28rem;
+  height: 0.05rem;
+  background-color: #233554;
+  margin-top: 3.3rem;
+}
+
+.minor_heading {
+  display: flex;
+  margin-top: 7rem;
+}
+
+#abtMeContent {
+  max-width: 45rem;
+}
+
+ul {
+  list-style: none;
+  font-size: 1rem;
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+}
+
+ul li::before {
+  content: "▹";
+  color: #64ffda;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+#pic {
+  height: 16rem;
+  width: 12rem;
+  background-color: #64ffda;
+  /* padding: 0.1rem; */
+  /* /* border-bottom:0.1rem solid  #64ffda ; */
+  border: 0.2rem solid #64ffda;
+  border-radius: 0.2rem;
+  padding: rem;
+  margin-top: -2rem;
+  margin-left: -2rem;
+  /* padding:1rem; */
+  /* opacity: 0.3; */
+}
+
+#img_border {
+  margin-left: 9rem;
+  margin-top: 1.5rem;
+  height: 18rem;
+  width: 14rem;
+  border: 0.2rem solid #64ffda;
+}
+
+#img_border:hover {
+  border: 0.2rem solid #8892b0;
+}
+
+#pic:hover {
+  background-color: #64ffda;
+  filter: grayscale(100);
+}
+
+#contentWithDp {
+  display: flex;
+}
+
+#list {
+  display: flex;
+}
+
+.education {
+  margin-left: 10rem;
+}
+
+.verLine {
+  margin-left: 0.5rem;
+  height: 16rem;
+  background-color: #233554;
+  margin-right: 3rem;
+}
+.eduSection {
+  display: flex;
+  align-items: center;
+}
+
+#clg {
+  position: relative;
+  left: 3rem;
+  top: 5rem;
+  margin-left: 25rem;
+  background-color: #112240;
+  width: 29rem;
+  height: 20rem;
+  margin-bottom: 5rem;
+  border-radius: 0.6rem;
+}
+
+#ug {
+  padding: 1rem;
+  text-align: center;
+  color: #ccd6f6;
+}
+
+.clgLogo {
+  height: 3rem;
+  padding: 1rem;
+}
+
+.pr_img {
+  height: 20rem;
+  width: 40rem;
+  mix-blend-mode: soft-light;
+  padding: 0.8rem;
+  border: 0.1rem solid #64ffda;
+  border-radius: 0.8rem;
+  /* for adding filters to the image */
+}
+
+.pr_img:hover {
+  mix-blend-mode: normal;
+  background-color: white;
+  border-color: white;
+  /* padding: 0;
+  border: 0.8rem solid #64ffda;
+  border-radius: 0.1rem; */
+}
+
+.project_text{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  margin-right: 4rem;
+
+}
+
+.projTxt1{
+  font-size: 16px;
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+  text-align: right;
+  color: #64ffda;
+}
+
+.abt_project{
+  background-color:#112240;
+  text-align: right;
+  margin-left: 0.8rem;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.abt_project:hover{
+color:white;
+
+}
+
+.pName{
+  color:aliceblue;
+}
+
+.projLinks{
+  margin-left: 24rem;
+}
+.odd{
+  text-align: left;
+}
+
+.odd_proj{
+  margin-left: 0;
+  margin-right: 1rem;
+}
+
+#grocery:hover{
+  background-color: #32cd32;
+  border-color: #32cd32;
+}
+
+.project{
+  margin-top: 10rem;
+}
+
+#car:hover{
+  background-color:white;
+  /* #02090b; */
+  border-color: #02090b;
+}
+
+#opening{
+  margin-left: 3rem;
+}
+
+#contact{
+  margin-right: 5rem;
+}
+
+#z{
+  font-size: 16px;
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+  color: #64ffda;
+  margin-bottom: 0;
+}
+
+#x{
+
+  text-align: center;
+  width: 47rem;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+#BTN{
+  background-color: hsl(216, 65%, 11%);
+  border: 0.08rem solid #64ffda;
+  border-radius: 0.2rem;
+  color: #64ffda;
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+  margin-left: 33rem;
+  padding: 1.5rem;
+  font-size: 16px;
+  margin-bottom: 16rem;
+  
+
+}
+
+#last{
+  text-align: center;
+  font-size: 12px;
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+  color: #64ffda;
+  margin-left: 0.8rem;
+  
+
+}
